@@ -4,6 +4,8 @@
 (add-hook 'text-mode-hook 'visual-line-mode)
 
 (set-face-attribute 'font-lock-warning-face nil :weight 'bold :foreground "black")
+(set-face-attribute 'font-lock-function-name-face nil :foreground "red")
+(set-face-attribute 'font-lock-keyword-face nil :foreground "orange")
 
 (defconst wpdl-font-lock-keywords-1
   (list
