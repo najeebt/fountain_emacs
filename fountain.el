@@ -12,7 +12,7 @@
    ; scene headings
    '("^\\(?:\\(?:EXT\\|INT\\|\\(?:ex\\|in\\)t\\)\\.\\)\.\*\$" . font-lock-function-name-face)
    ; **text** => bold
-   '("\\*\\*\.\*\\*\\*" . font-lock-warning-face))
+   '("\\*\\*\.\*?\\*\\*" . font-lock-warning-face))
   "Minimal highlighting expressions for WPDL mode.")
 
 (defconst wpdl-font-lock-keywords-2
