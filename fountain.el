@@ -10,6 +10,7 @@
 (defconst wpdl-font-lock-keywords-1
   (list
    ; scene headings
+   '("^\\.\.\*\$" . font-lock-function-name-face)
    '("^\\(?:\\(?:EXT\\|INT\\|\\(?:ex\\|in\\)t\\)\\.\\)\.\*\$" . font-lock-function-name-face)
    ; **text** => bold
    '("\\*\\*\.\*?\\*\\*" . font-lock-warning-face))
